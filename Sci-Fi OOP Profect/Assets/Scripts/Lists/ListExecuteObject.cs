@@ -8,11 +8,6 @@ namespace RRRStudyProject
         private IExecute[] _interactiveObjects;
         private int _index = -1;
 
-        public ListExecuteObject()
-        {
-
-        }
-
         public IExecute this[int curr]
         {
             get => _interactiveObjects[curr];
